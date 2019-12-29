@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="renderer" content="webkit">
-    <title>后台管理中心</title>  
+    <title>招聘网后台管理中心</title>  
     <link rel="stylesheet" href="css/pintuer.css">
     <link rel="stylesheet" href="css/admin.css">
     <script src="js/jquery.js"></script>   
@@ -14,7 +14,7 @@
 <body style="background-color:#f2f9fd;">
 <div class="header bg-main">
   <div class="logo margin-big-left fadein-top">
-    <h1><img src="images/y.jpg" class="radius-circle rotate-hover" height="50" alt="" />后台管理中心</h1>
+    <h1><img src="images/y.jpg" class="radius-circle rotate-hover" height="50" alt="" />招聘网后台管理中心</h1>
   </div>
   <div class="head-l"><a class="button button-little bg-green" href="" target="_blank"><span class="icon-home"></span> 前台首页</a> &nbsp;&nbsp;<a href="##" class="button button-little bg-blue"><span class="icon-wrench"></span> 清除缓存</a> &nbsp;&nbsp;<a class="button button-little bg-red" href="login.html"><span class="icon-power-off"></span> 退出登录</a> </div>
 </div>
@@ -24,18 +24,47 @@
   <ul style="display:block">
     <li><a href="info.html" target="right"><span class="icon-caret-right"></span>网站设置</a></li>
     <li><a href="pass.html" target="right"><span class="icon-caret-right"></span>修改密码</a></li>
-    <li><a href="page.html" target="right"><span class="icon-caret-right"></span>单页管理</a></li>  
-    <li><a href="adv.html" target="right"><span class="icon-caret-right"></span>首页轮播</a></li>   
-    <li><a href="book.html" target="right"><span class="icon-caret-right"></span>留言管理</a></li>     
-    <li><a href="column.html" target="right"><span class="icon-caret-right"></span>栏目管理</a></li>
   </ul>   
-  <h2><span class="icon-pencil-square-o"></span>栏目管理</h2>
+  <h2><span class="icon-pencil-square-o"></span>用户信息管理</h2>
   <ul>
-    <li><a href="list.html" target="right"><span class="icon-caret-right"></span>内容管理</a></li>
-    <li><a href="add.html" target="right"><span class="icon-caret-right"></span>添加内容</a></li>
-    <li><a href="cate.html" target="right"><span class="icon-caret-right"></span>分类管理</a></li>        
-  </ul>  
+    <li><a href="YongHu?method=listAll" target="right"><span class="icon-caret-right"></span>用户信息列表</a></li>
+    <li><a href="YongHu?method=add" target="right"><span class="icon-caret-right"></span>添加用户信息</a></li>
+    <li><a href="YongHu?method=delete" target="right"><span class="icon-caret-right"></span>删除用户信息</a></li>
+    <li><a href="YongHu?method=update" target="right"><span class="icon-caret-right"></span>修改用户信息</a></li>
+  </ul> 
+  
+  
+   
+   <!--  <h2><span class="icon-pencil-square-o"></span>公司信息管理</h2>
+  <ul>
+    <li><a href=" target="right"><span class="icon-caret-right"></span>添加公司信息</a></li>
+    <li><a href="list.html" target="right"><span class="icon-caret-right"></span>删除公司信息</a></li>
+    <li><a href="list.html" target="right"><span class="icon-caret-right"></span>修改公司信息</a></li>
+  </ul> 
+      <h2><span class="icon-pencil-square-o"></span>岗位信息管理</h2>
+  <ul>
+    <li><a href="YongHu target="right"><span class="icon-caret-right"></span>添加岗位信息</a></li>
+    <li><a href="list.html" target="right"><span class="icon-caret-right"></span>删除岗位信息</a></li>
+    <li><a href="list.html" target="right"><span class="icon-caret-right"></span>修改岗位信息</a></li>
+  </ul> 
+      <h2><span class="icon-pencil-square-o"></span>招聘会信息管理</h2>
+  <ul>
+    <li><a href="YongHu target="right"><span class="icon-caret-right"></span>添加招聘会信息</a></li>
+    <li><a href="list.html" target="right"><span class="icon-caret-right"></span>删除招聘会信息</a></li>
+    <li><a href="list.html" target="right"><span class="icon-caret-right"></span>修改招聘会信息</a></li>
+  </ul> 
+      <h2><span class="icon-pencil-square-o"></span>投递信息管理</h2>
+  <ul>
+    <li><a href="YongHu target="right"><span class="icon-caret-right"></span>添加投递信息</a></li>
+    <li><a href="list.html" target="right"><span class="icon-caret-right"></span>删除投递信息</a></li>
+    <li><a href="list.html" target="right"><span class="icon-caret-right"></span>修改投递信息</a></li>
+  </ul> 
+  --> 
+  
+  
+  
 </div>
+
 <script type="text/javascript">
 $(function(){
   $(".leftnav h2").click(function(){
